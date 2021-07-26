@@ -1,0 +1,13 @@
+{
+  "mongo": {
+    "databases": {
+      "cleandb": {
+        "host": "localhost",
+        "port": 27017,
+        "user": "clean",
+        "password": "clean123",
+        "db": "cleandb"
+      }
+    }
+  }
+}

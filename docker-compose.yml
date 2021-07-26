@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  mongo:
+    image: bitnami/mongodb
+    environment:
+      - MONGODB_USERNAME=clean
+      - MONGODB_PASSWORD=clean123
+      - MONGODB_DATABASE=cleandb
+    ports:
+      - "27017:27017"
